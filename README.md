@@ -6,7 +6,7 @@ NumpyNet is a simple, readable implementation of a feedforward neural network fo
 All of the code related to training, intializing, evaluating the neural network is located in the neural_network.py file, while the main.py file runs and evaluates a few architectures on a toy dataset.
 
 # Features
- - From-scratch implementation: No PyTorch, no TensorFlow—just NumPy arrays.
+ - From-scratch implementation: Just arrays and manipulation with NumPy
  - Customizable architecture: Choose your number of layers and hidden units.
  - Batch training: Mini-batch gradient descent.
  - Binary classification: Sigmoid activations and cross-entropy loss.
