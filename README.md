@@ -41,6 +41,7 @@ print("Prediction:", y_pred)
 ```
 
 # File Structure
+```
 .
 ├── neural_network.py   # Core neural network implementation
 ├── main.py             # Example: training and evaluation script   
@@ -50,6 +51,7 @@ print("Prediction:", y_pred)
 ├── .gitignore
 ├── LICENSE
 └── README.md
+```
 
 # How it Works
 NumpyNet stacks fully-connected layers with sigmoid activations. Training uses mini-batch gradient descent (can be SGD with batch_size = 1) and backpropagation, all written from scratch, and the parameters are initialized using Xavier initialization for weights. You can easily change the number of layers, hidden units, or batch size.
