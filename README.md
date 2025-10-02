@@ -4,7 +4,7 @@ A simple, fully-connected neural network implemented from scratch in NumPy.
 NumpyNet is a simple, readable implementation of a feedforward neural network for binary classification. It's designed for learning, experimentation, and as an introduction to how neural networks work under the hood without any additional deep learning frameworks.
 
 # Features
- - From-scratch implementation: No PyTorch, no TensorFlow—just NumPy.
+ - From-scratch implementation: No PyTorch, no TensorFlow—just NumPy arrays.
  - Customizable architecture: Choose your number of layers and hidden units.
  - Batch training: Mini-batch gradient descent.
  - Binary classification: Sigmoid activations and cross-entropy loss.
